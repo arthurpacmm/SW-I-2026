@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+    background-color: #E8DECA; /* Bege principal da página */
+    color: #3d2b1f;
+    line-height: 1.6;
+    min-width: 1024px; /* Trava a largura mínima para não quebrar no PC */
+}
+
+/* Header e Banner Fixo */
+/* Header e Banner que ocupa a tela toda */
+.main-header {
+    width: 100%;
+    height: 400px; /* Mantém a altura do seu design */
+    background-image: url('img/banner.png'); /* Verifique se é .png ou .jpg */
+    background-size: cover; /* Faz a imagem ocupar toda a largura disponível */
+    background-position: center; /* Mantém o centro do banner sempre visível */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center;
+    border-bottom: 5px solid #b38a2d;
+}
+
+/* Menu de Navegação */
+nav {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Uma leve faixa escura para ler os links melhor */
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #f5f5dc;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    font-size: 18px; /* Tamanho fixo */
+    margin: 0 20px; /* Espaço fixo entre os botões */
+    transition: 0.3s;
+    text-shadow: 2px 2px 4px #000;
+}
+
+nav a:hover {
+    color: #b38a2d;
+}
+
+/* Conteúdo Principal */
+main {
+    width: 900px; /* Largura fixa, sem encolher */
+    margin: 40px auto;
+}
+
+.content-box {
+    background-color: #D2B48C; /* Bege bem marcado (cor de papelão/pergaminho antigo) */
+    padding: 40px;
+    border: 6px double #3d2b1f;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+h2, h3 {
+    font-family: 'Cinzel', serif;
+    color: #2d4f1e;
+    border-bottom: 2px solid #8B5A2B;
+    padding-bottom: 5px;
+}
+
+.objetivo-card {
+    background: rgba(45, 79, 30, 0.15);
+    padding: 15px;
+    border-left: 5px solid #2d4f1e;
+    margin: 20px 0;
+}
+
+/* Footer solicitado */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: #3d2b1f;
+    font-family: 'Cinzel', serif;
+    background-color: #B9AB83; /* Bege mais escuro do rodapé */
+    font-weight: bold;
+    margin-top: 40px;
+}
